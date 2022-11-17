@@ -6,5 +6,6 @@ while [ $count -gt 0 ]
 do
         head -$count $file | tail -1
         count=`expr $count - 1`
-        echo "vineesh is commiting"
+
+	echo "deepak clone"
 done
