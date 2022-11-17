@@ -7,5 +7,6 @@ do
         head -$count $file | tail -1
         count=`expr $count - 1`
 
-	echo "deepak clone"
+	echo "deepak clone pooja clone"
+	
 done
